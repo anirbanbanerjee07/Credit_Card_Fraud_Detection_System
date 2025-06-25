@@ -23,6 +23,11 @@ A **Machine Learning** solution to **detect fraudulent credit card transactions*
 
 ---
 
+## 📖 Overview
+The Credit Card Fraud Detection System utilizes advanced machine learning algorithms to accurately identify fraudulent transactions, ensuring enhanced security in financial operations. This project features detailed documentation and robust model evaluation metrics, making it an essential tool for financial institutions and businesses in today's digital economy. 💳✨
+
+---
+
 ## About
 
 This repository implements a system to identify fraudulent transactions using ML techniques like Logistic Regression, Random Forest, Autoencoder, and more. Its goal is to minimize false positives and maximize fraud recall. See examples in other GitHub projects like yennhi's hands-on approach :contentReference[oaicite:1]{index=1} and shakiliitju’s structured repo layout :contentReference[oaicite:2]{index=2}.
@@ -40,12 +45,44 @@ This repository implements a system to identify fraudulent transactions using ML
 
 ---
 
+## 🛠️ Technologies Used
+
+| Technology       | Description                                  |
+|------------------|----------------------------------------------|
+| Python       | The programming language used for this project. |
+| Pandas       | Data manipulation library for handling data. |
+| Scikit-Learn | Library for machine learning algorithms.      |
+| NumPy        | Numerical computation library.                |
+| Matplotlib   | Data visualization library for plotting graphs. |
+| Seaborn      | Statistical data visualization library.       |
+
+---
+
+## 🚀 Getting Started
+Follow the steps below to set up the project on your local machine.
+
+---
+
 ## 📦 Installation
 
-```bash
-git clone https://github.com/<username>/Credit_Card_Fraud_Detection_System.git
-cd Credit_Card_Fraud_Detection_System
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+ ```bash
+    git clone https://github.com/anirbanbanerjee07/credit_card_fraud_detection_system.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd credit_card_fraud_detection_system
+    ```
+3. Install the required libraries (If using `requirements.txt`):
+    ```bash
+    pip install -r requirements.txt
+```
+
+## Add Files to Your Git Repository
+git add .
+## Commit Your Changes
+git commit -m "Initial commit"
+## Push Your Changes to GitHub
+git push -u origin master
+## To verify your remote repository
+git remote -v
 
